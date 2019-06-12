@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="scapper_2.11"
+		revision="0.1"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190226121736"/>
+	<dependencies>
+		<module organisation="org.jsoup" name="jsoup">
+			<revision name="1.11.3" status="release" pubdate="20180416035107" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://jsoup.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="The MIT License" url="https://jsoup.org/license"/>
+				<metadata-artifact status="no" details="" size="3802" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.jsoup\jsoup\ivy-1.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.pom"/>
+				<caller organisation="default" name="scapper_2.11" conf="test, compile, runtime" rev="1.11.3" rev-constraint-default="1.11.3" rev-constraint-dynamic="1.11.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jsoup" type="jar" ext="jar" status="no" details="" size="395748" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.jsoup\jsoup\jars\jsoup-1.11.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mongodb" name="casbah_2.11">
+			<revision name="3.1.1" status="release" pubdate="20160301200343" resolver="public" artresolver="public" homepage="http://github.com/mongodb/casbah" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="2306" time="606" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\casbah_2.11\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\casbah_2.11\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1.pom"/>
+				<caller organisation="default" name="scapper_2.11" conf="test, compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="casbah_2.11" type="pom" ext="pom" status="successful" details="" size="2306" time="767" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\casbah_2.11\poms\casbah_2.11-3.1.1.pom">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/casbah_2.11/3.1.1/casbah_2.11-3.1.1.pom"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mongodb" name="casbah-gridfs_2.11">
+			<revision name="3.1.1" status="release" pubdate="20160301200408" resolver="public" artresolver="public" homepage="http://github.com/mongodb/casbah" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="2002" time="573" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\casbah-gridfs_2.11\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\casbah-gridfs_2.11\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1.pom"/>
+				<caller organisation="org.mongodb" name="casbah_2.11" conf="default, compile, runtime, master" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<artifacts>
+					<artifact name="casbah-gridfs_2.11" type="jar" ext="jar" status="successful" details="" size="80738" time="1130" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\casbah-gridfs_2.11\jars\casbah-gridfs_2.11-3.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.11/3.1.1/casbah-gridfs_2.11-3.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mongodb" name="casbah-core_2.11">
+			<revision name="3.1.1" status="release" pubdate="20160301200357" resolver="public" artresolver="public" homepage="http://github.com/mongodb/casbah" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="1965" time="504" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\casbah-core_2.11\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\casbah-core_2.11\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1.pom"/>
+				<caller organisation="org.mongodb" name="casbah_2.11" conf="default, compile, runtime, master" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="org.mongodb" name="casbah-gridfs_2.11" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<artifacts>
+					<artifact name="casbah-core_2.11" type="jar" ext="jar" status="successful" details="" size="291875" time="1355" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\casbah-core_2.11\jars\casbah-core_2.11-3.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.11/3.1.1/casbah-core_2.11-3.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mongodb" name="casbah-query_2.11">
+			<revision name="3.1.1" status="release" pubdate="20160301200355" resolver="public" artresolver="public" homepage="http://github.com/mongodb/casbah" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="1790" time="507" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\casbah-query_2.11\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\casbah-query_2.11\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1.pom"/>
+				<caller organisation="org.mongodb" name="casbah_2.11" conf="default, compile, runtime, master" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="org.mongodb" name="casbah-core_2.11" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<artifacts>
+					<artifact name="casbah-query_2.11" type="jar" ext="jar" status="successful" details="" size="235588" time="1327" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\casbah-query_2.11\jars\casbah-query_2.11-3.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.11/3.1.1/casbah-query_2.11-3.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mongodb" name="casbah-commons_2.11">
+			<revision name="3.1.1" status="release" pubdate="20160301200406" resolver="public" artresolver="public" homepage="http://github.com/mongodb/casbah" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="successful" details="" size="2976" time="501" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\casbah-commons_2.11\ivy-3.1.1.xml" searched="true" original-local-location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\casbah-commons_2.11\ivy-3.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1.pom"/>
+				<caller organisation="org.mongodb" name="casbah-query_2.11" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="org.mongodb" name="casbah_2.11" conf="default, compile, runtime, master" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<caller organisation="org.mongodb" name="casbah-core_2.11" conf="compile, runtime" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="3.1.1"/>
+				<artifacts>
+					<artifact name="casbah-commons_2.11" type="jar" ext="jar" status="successful" details="" size="174850" time="750" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\casbah-commons_2.11\jars\casbah-commons_2.11-3.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.11/3.1.1/casbah-commons_2.11-3.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.6.0" status="release" pubdate="20100508161529" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4019" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom"/>
+				<caller organisation="org.mongodb" name="casbah-commons_2.11" conf="compile, runtime" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="3.1.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="25496" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mongodb" name="mongo-java-driver">
+			<revision name="3.2.2" status="release" pubdate="20160215215032" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.mongodb.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3154" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\mongo-java-driver\ivy-3.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.pom"/>
+				<caller organisation="org.mongodb" name="casbah-commons_2.11" conf="compile, runtime" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="3.1.1"/>
+				<artifacts>
+					<artifact name="mongo-java-driver" type="jar" ext="jar" status="no" details="" size="1484724" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\mongo-java-driver\jars\mongo-java-driver-3.2.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.nscala-time" name="nscala-time_2.11">
+			<revision name="1.0.0" status="release" pubdate="20140418045555" resolver="public" artresolver="public" homepage="https://github.com/nscala-time/nscala-time" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache" url="http://www.opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="successful" details="" size="1972" time="563" location="C:\Users\mithlesh.kumar\.ivy2\cache\com.github.nscala-time\nscala-time_2.11\ivy-1.0.0.xml" searched="true" original-local-location="C:\Users\mithlesh.kumar\.ivy2\cache\com.github.nscala-time\nscala-time_2.11\ivy-1.0.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.pom"/>
+				<caller organisation="org.mongodb" name="casbah-commons_2.11" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="3.1.1"/>
+				<artifacts>
+					<artifact name="nscala-time_2.11" type="jar" ext="jar" status="successful" details="" size="186763" time="1500" location="C:\Users\mithlesh.kumar\.ivy2\cache\com.github.nscala-time\nscala-time_2.11\jars\nscala-time_2.11-1.0.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.11/1.0.0/nscala-time_2.11-1.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.3" status="release" pubdate="20130816230125" resolver="public" artresolver="public" homepage="http://www.joda.org/joda-time/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="25165" time="631" location="C:\Users\mithlesh.kumar\.ivy2\cache\joda-time\joda-time\ivy-2.3.xml" searched="true" original-local-location="C:\Users\mithlesh.kumar\.ivy2\cache\joda-time\joda-time\ivy-2.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom"/>
+				<caller organisation="com.github.nscala-time" name="nscala-time_2.11" conf="compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="successful" details="" size="581571" time="1189" location="C:\Users\mithlesh.kumar\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.joda" name="joda-convert">
+			<revision name="1.2" status="release" pubdate="20111028012117" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-convert.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3281" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.joda\joda-convert\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom"/>
+				<caller organisation="com.github.nscala-time" name="nscala-time_2.11" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="joda-convert" type="jar" ext="jar" status="no" details="" size="38460" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.joda\joda-convert\jars\joda-convert-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.0" status="release" pubdate="20140416144350" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.0/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2860" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.11.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0.pom"/>
+				<caller organisation="org.mongodb.scala" name="mongo-scala-driver_2.11" conf="default, compile, runtime, master" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.6.0"/>
+				<caller organisation="org.mongodb.scala" name="mongo-scala-bson_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.6.0"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4422519" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mongodb.scala" name="mongo-scala-driver_2.11">
+			<revision name="2.6.0" status="release" pubdate="20190206201831" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://mongodb.github.io/mongo-scala-driver" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3942" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb.scala\mongo-scala-driver_2.11\ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-driver_2.11/2.6.0/mongo-scala-driver_2.11-2.6.0.pom"/>
+				<caller organisation="default" name="scapper_2.11" conf="test, compile, runtime" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="mongo-scala-driver_2.11" type="jar" ext="jar" status="no" details="" size="630256" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb.scala\mongo-scala-driver_2.11\jars\mongo-scala-driver_2.11-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-driver_2.11/2.6.0/mongo-scala-driver_2.11-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mongodb.scala" name="mongo-scala-bson_2.11">
+			<revision name="2.6.0" status="release" pubdate="20190206201819" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://mongodb.github.io/mongo-scala-driver" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3778" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb.scala\mongo-scala-bson_2.11\ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-bson_2.11/2.6.0/mongo-scala-bson_2.11-2.6.0.pom"/>
+				<caller organisation="org.mongodb.scala" name="mongo-scala-driver_2.11" conf="default, compile, runtime, master" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="2.6.0"/>
+				<artifacts>
+					<artifact name="mongo-scala-bson_2.11" type="jar" ext="jar" status="no" details="" size="282834" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb.scala\mongo-scala-bson_2.11\jars\mongo-scala-bson_2.11-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/scala/mongo-scala-bson_2.11/2.6.0/mongo-scala-bson_2.11-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mongodb" name="mongodb-driver-async">
+			<revision name="3.10.0" status="release" pubdate="20190205184512" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.mongodb.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2988" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\mongodb-driver-async\ivy-3.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/mongodb-driver-async/3.10.0/mongodb-driver-async-3.10.0.pom"/>
+				<caller organisation="org.mongodb.scala" name="mongo-scala-driver_2.11" conf="default, compile, runtime, master" rev="3.10.0" rev-constraint-default="3.10.0" rev-constraint-dynamic="3.10.0" callerrev="2.6.0"/>
+				<caller organisation="org.mongodb.scala" name="mongo-scala-bson_2.11" conf="compile, runtime" rev="3.10.0" rev-constraint-default="3.10.0" rev-constraint-dynamic="3.10.0" callerrev="2.6.0"/>
+				<artifacts>
+					<artifact name="mongodb-driver-async" type="jar" ext="jar" status="no" details="" size="218876" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\mongodb-driver-async\jars\mongodb-driver-async-3.10.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/mongodb-driver-async/3.10.0/mongodb-driver-async-3.10.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mongodb" name="mongodb-driver-core">
+			<revision name="3.10.0" status="release" pubdate="20190205184530" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.mongodb.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3573" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\mongodb-driver-core\ivy-3.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/mongodb-driver-core/3.10.0/mongodb-driver-core-3.10.0.pom"/>
+				<caller organisation="org.mongodb" name="mongodb-driver-async" conf="compile, runtime" rev="3.10.0" rev-constraint-default="3.10.0" rev-constraint-dynamic="3.10.0" callerrev="3.10.0"/>
+				<artifacts>
+					<artifact name="mongodb-driver-core" type="jar" ext="jar" status="no" details="" size="1368986" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\mongodb-driver-core\jars\mongodb-driver-core-3.10.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/mongodb-driver-core/3.10.0/mongodb-driver-core-3.10.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mongodb" name="bson">
+			<revision name="3.10.0" status="release" pubdate="20190205184433" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://bsonspec.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2651" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\bson\ivy-3.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mongodb/bson/3.10.0/bson-3.10.0.pom"/>
+				<caller organisation="org.mongodb" name="mongodb-driver-async" conf="compile, runtime" rev="3.10.0" rev-constraint-default="3.10.0" rev-constraint-dynamic="3.10.0" callerrev="3.10.0"/>
+				<caller organisation="org.mongodb" name="mongodb-driver-core" conf="compile, runtime" rev="3.10.0" rev-constraint-default="3.10.0" rev-constraint-dynamic="3.10.0" callerrev="3.10.0"/>
+				<artifacts>
+					<artifact name="bson" type="jar" ext="jar" status="no" details="" size="488857" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.mongodb\bson\jars\bson-3.10.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mongodb/bson/3.10.0/bson-3.10.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.0" status="release" pubdate="20140416144332" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.0/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.0/scala-library-2.11.0.pom"/>
+				<caller organisation="org.mongodb.scala" name="mongo-scala-driver_2.11" conf="default, compile, runtime, master" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.6.0"/>
+				<caller organisation="com.github.nscala-time" name="nscala-time_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0.0"/>
+				<caller organisation="org.mongodb" name="casbah-query_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="3.1.1"/>
+				<caller organisation="default" name="scapper_2.11" conf="test, compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="0.1"/>
+				<caller organisation="org.mongodb" name="casbah_2.11" conf="default, compile, runtime, master" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="3.1.1"/>
+				<caller organisation="org.mongodb.scala" name="mongo-scala-bson_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.6.0"/>
+				<caller organisation="org.mongodb" name="casbah-core_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="3.1.1"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="2.11.0"/>
+				<caller organisation="org.mongodb" name="casbah-commons_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="3.1.1"/>
+				<caller organisation="org.mongodb" name="casbah-gridfs_2.11" conf="compile, runtime" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="3.1.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5577112" time="0" location="C:\Users\mithlesh.kumar\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.0/scala-library-2.11.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
